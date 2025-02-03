@@ -42,6 +42,9 @@ nav ul li a:hover {
     color: #e74c3c;
 }
 
+
+
+
 /* Añadimos un margen superior para el contenido */
 body {
     margin-top: 70px; /* Ajustamos el margen superior para que el contenido no quede oculto debajo del header */
@@ -94,3 +97,209 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+
+
+
+
+
+/* Eliminar el subrayado de los enlaces */
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Toma el color del texto padre, asegurando que el color sea el mismo */
+}
+
+/* Estilos de los enlaces del menú */
+nav ul li a {
+    color: #fff; /* Color blanco para los enlaces */
+    text-decoration: none; /* Eliminar el subrayado */
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #e74c3c; /* Color cuando el ratón pasa sobre el enlace */
+}
+
+/* Estilos para los enlaces visitados */
+a:visited {
+    color: #fff; /* Aseguramos que el color sea blanco, igual que los enlaces no visitados */
+}
+
+
+
+
+
+
+/* Sección de Servicios */
+.servicios {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.servicios h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.servicio {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.servicio p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.servicio:hover {
+    transform: translateY(-10px); /* Eleva el servicio cuando se pasa el mouse sobre él */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Efecto de sombra más pronunciado */
+}
+
+
+
+
+
+/* Sección de Sobre Nosotros */
+.sobre-nosotros {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sobre-nosotros h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sobre-nosotros p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.equipo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.miembro {
+    text-align: center;
+    width: 250px;
+}
+
+.miembro img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.miembro:hover img {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón sobre la imagen */
+}
+
+.miembro h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.miembro p {
+    font-size: 14px;
+    color: #777;
+}
+
+
+
+
+/* Sección de Contacto */
+.contacto {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.contacto h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto form label {
+    font-size: 16px;
+    color: #555;
+}
+
+.contacto form input, .contacto form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacto form button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto form button:hover {
+    background-color: #c0392b;
+}
+
+/* Información de contacto */
+.contacto p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.contacto p strong {
+    font-weight: bold;
+}
+
+
+
