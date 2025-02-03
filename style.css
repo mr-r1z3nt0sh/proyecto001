@@ -1,0 +1,96 @@
+/* Estilos del Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10; /* Asegura que el header esté por encima de otros elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para hacerlo más moderno */
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Añadimos un margen superior para el contenido */
+body {
+    margin-top: 70px; /* Ajustamos el margen superior para que el contenido no quede oculto debajo del header */
+}
+/* Sección Hero */
+.hero {
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* Degradado de colores */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px; /* Separación del contenido */
+}
+
+footer p {
+    font-size: 14px;
+}
